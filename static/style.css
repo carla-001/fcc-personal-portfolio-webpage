@@ -5,7 +5,7 @@ html, body, nav, ul, li, section, h1, h2, p, img {
   
   html, body {
     font-family: ABeeZee;
-    font-size: 1.15em;
+    font-size: 1.1em;
     color: white;
     text-align: center;
     background-color: #ffccd5;
@@ -64,7 +64,7 @@ html, body, nav, ul, li, section, h1, h2, p, img {
     color: white;
   } 
   
-  section:nth-child(even){
+  section:nth-child(odd){
     background-color: powderblue;
   }
   
@@ -182,6 +182,9 @@ html, body, nav, ul, li, section, h1, h2, p, img {
     }
   }
   @media (max-width: 450px) {
+    html, body {
+      font-size: 1em;
+    }
     #emoji-div {
       width: 20%;
     }
